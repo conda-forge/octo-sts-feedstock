@@ -1,5 +1,5 @@
 context:
-  version: "0.5.4"
+  version: "0.6.0"
 
 package:
   name: octo-sts
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/octo-sts/app/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: aabdf6eac59d560534db90ede68e08d7adc9412dec58f9e21b0e2b823fd8feed
+  sha256: 164346335676f45b35637f0d553be4ebd99fa23a8dbd39c6230f3f5d9a249a82
   target_directory: src
 
 build:
